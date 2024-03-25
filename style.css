@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: beige;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.logo{
+    color: #0356aa;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+nav a{
+color: #0f8185;
+    text-decoration: none;
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 1.1em;
+ }
+ nav a:hover{
+    color: rgb(59, 81, 180);
+    
+ }
+ .main{
+    width :100%;
+    align-items: center;
+    background: url("https://khamsat.hsoubcdn.com/images/services/1565409/6777bb3f65107cfb951e13ecaeee6e86.jpg");
+    background-repeat:no-repeat ;
+      background-size: cover; 
+     padding: 100px;
+    
+ }
+ h3{letter-spacing: 3px;
+    color: rgb(129, 127, 118);
+ }
+ h1{
+    font-weight: 900;
+    font-size: 5em;
+    color: white;
+    letter-spacing: 18px;
+}
+.main-btn{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+    background-color: rgb(135, 135, 216);
+    border-radius: 15px;
+    letter-spacing:4px ;
+    display: inline-block;
+    margin-bottom: 40px;
+    transition: 1.6s ease;
+}
+.btn{
+    margin: 5px 5px;
+    padding: 5px 5px;
+    background-color: rgb(135, 135, 216);
+    border-radius: 15px;
+
+}
+.main-btn:hover{
+   transform: scale(1.1,1.4);
+   background-color: blue;
+}
+.social-icons a{
+    padding-left: 17px;
+    font-size:xx-large;
+    color:white;
+ }
+ .content{
+   display: flex;
+   justify-content: center;flex-direction: row;
+
+   flex-wrap: wrap;
+ }
+ .title{
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-size: large;
+  margin-bottom: 10px;
+  color: #0f8185;
+ }
+ .cards{
+    margin-bottom:30px ;
+  
+}
+.icon{
+    font-size: xx-large;
+    color:rgb(15, 94, 94);
+    display: flex;
+    justify-content:center;
+}
+.card{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow:0 5px 30px rgb(0, 0, 0);
+    transition: 0.8s ease;
+   
+}
+.card:hover{
+    background-color: rgba(18, 135, 148, 0.1);
+    transform :scale(1.1,1.2);
+}
+
+
+.info{
+    text-align: center;
+}
+.info h4{
+    color: #0f8185;
+    margin: 10px;
+    font-weight: 600;
+}
+.projects{
+    background-color: black;
+}
+.projects.content{
+    margin-top: 30px;
+   
+}
+.project-card{
+    background-color: white;
+    border: 1px solid white;
+    min-height: 14em;
+    width:23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project-card:hover{
+    transform: scale(1.1,1.2);
+}
+.project-img img{
+    width: 100%;
+
+}
+.project-img img:hover{
+    opacity: 0.9;
+}
+.project-info{
+    padding: 1em;
+}
