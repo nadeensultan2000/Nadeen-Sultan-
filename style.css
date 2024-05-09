@@ -84,11 +84,9 @@ color: #0f8185;
 .btn{
     margin: 2px 2px;
     padding: 2px 2px;
-    background-color: rgb(107, 201, 125);
+    background-color:  rgb(111, 220, 131);
     border-radius: 15px;
-    text-decoration: none;
-
-}
+    text-decoration: none;}
 .main-btn:hover{
    transform: scale(1.1,1.4);
    background-color: rgb(56, 56, 190);
